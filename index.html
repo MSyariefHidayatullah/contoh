@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="%PUBLIC_URL%/facion.ico"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>WEB PERTAMA</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="asset/partner.png" alt="logo" class="logo-img"/>
+                <h1 class="logo-title">MSH</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#Tentang Saya">TENTANG SAYA</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Hello, Muhammad Syarief Hidayatullah Here!</p>
+                <p class="description">Jurusan Fisika FMIPA</p>
+                <img src="asset/msh-1.png" alt="m syarief Hidayatullah foto 1" class="img-foto"/>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="tentang">
+                <p class="title">Saya Adalah Mahasiswa Semester 5</p>
+                <p class="description">Tuhan bersama mahasiswa semester 5</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()">Mari Stress Bersama</button>
+                </div>
+            </div>
+            <div class="container">
+                    <div class="card" id="Tentang Saya">
+                        <div class="card-item">
+                            <img src="asset/biodata.jpg" alt="icon 1" class="icon"/>
+                            <p class="card-title"><button class="btn-cta" onclick="redirBiodata()"/button>Data Diri</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="asset/belajar-3.jpg" alt="icon 2" class="icon"/>
+                            <p class="card-title">Pejuang Laprak</p>
+                            <p class="card-description">Sering bergadang ketika mengerjakan laporan praktikum</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="asset/belajar-2.jpg" alt="icon 3" class="icon"/>
+                            <p class="card-title">Rajin belajar</p>
+                            <p class="card-description">Tetapi hanya jika malam sebelum ujian dilaksanakan</p>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+        <footer>
+            <p class="title">&copy;Muhammad Syarief Hidayatullah 2023</p>
+        </footer>
+        <script>
+            function redirInstagram(){
+                window.location.href= "https:/instagram.com/syariefh.exe"
+            }
+            function redirWhatsapp(){
+                window.location.href= "https:/wa.me/+62895800819080"
+            }
+            function redirBiodata(){
+                window.location.href= "https://msyariefhidayatullah.github.io/"
+            }
+        </script>
+    </body>
+</html>
